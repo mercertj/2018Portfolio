@@ -1,0 +1,54 @@
+/*body {
+	min-height: 200vh;
+}*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  h2 {
+  	text-align: center;
+  	font-family: "Roboto", sans serif;
+  	font-weight: 300;
+  }
+
+.card-title {
+	text-align: center;
+}
+
+.brand-logo {
+	font-weight: 300;
+	padding-left: 10px;
+	color: yellow;
+}
+
+.thin-text.left-align.valign {
+	color: ivory;
+	text-align: center;
+}
+.btn-large {
+	margin-left: 97px; 
+}
+
+#slink {
+	color: white;
+}
+
+.page-footer {
+	background-color: #455a64;
+	text-align: center;
+}
+
+.card.medium {
+	background-color: ;
+}
+
+.grey-text.text-darken-4 {
+	color: ivory;
+}
