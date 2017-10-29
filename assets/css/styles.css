@@ -2,64 +2,88 @@
 	min-height: 200vh;
 }*/
 
+#title {
+    color: ivory;
+    font-family: cursive;
+    font-weight: 300em;
+}
+
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
-  h2 {
-  	text-align: center;
-  	font-family: "Roboto", sans serif;
-  	font-weight: 300;
-  }
+}
 
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+.dropdown-button {
+    background-color: black;
+}
+
+h5 {
+    color: black;
+   font-family: cursive;
+    /*-webkit-text-fill-color: white;
+     Will override color (regardless of order) 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;*/*/
+}
+
+
+/*
  h4 {
  	font-weight: 200;
- }
- 
+ }*/
+
 .col.l6.m12.s12 {
-	width: 50%;
+    width: 50%;
 }
 
 .activator {
-	width: 100%;
+    width: 100%;
 }
 
 .card-title {
-	text-align: center;
+    text-align: center;
 }
 
 .brand-logo {
-	font-weight: 300;
-	padding-left: 10px;
-	color: yellow;
+    font-weight: 300;
+    padding-left: 10px;
+    color: yellow;
 }
 
 .thin-text.left-align.valign {
-	color: ivory;
-	text-align: center;
+    color: ivory;
+    text-align: center;
 }
+
 .btn-large {
-	margin-left: 97px; 
+    margin-left: 97px;
 }
 
 #slink {
-	color: white;
+    color: white;
 }
 
 .page-footer {
-	background-color: #455a64;
-	text-align: center;
+    background-color: #455a64;
+    text-align: center;
 }
 
 .card.medium {
-	background-color: ;
+    background-color: ;
 }
 
 .grey-text.text-darken-4 {
-	color: ivory;
+    color: ivory;
 }

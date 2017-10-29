@@ -17,13 +17,23 @@
     <!-- navbar -->
     <nav>
         <div class="nav-wrapper blue-grey darken-2">
-            <a href="#!" class="brand-logo">Thomas Mercer - Junior Web Developer and Project Manager</a>
+            <a href="#!" class="brand-logo" id="title">Thomas Mercer - Junior Web Developer and Project Manager</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>About Me</a>
+                    <!-- >About</a> -->
+                </li>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Bio</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Contact Me</a></li>
+                    <li><a href="https://www.linkedin.com/in/thomas-mercer-8bb4097/"><i class="fa fa-linkedin-square" aria-hidden="true"> LinkedIn</i></a></li>
+                    <li><a href="https://github.com/mercertj"><i class="fa fa-github" aria-hidden="true"> Git Hub</i></a></li>
+                </ul>
+                <!-- <li><a href="#">Services</a></li>
                 <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li> -->
             </ul>
             <ul class="side-nav blue-grey darken-2" id="mobile-demo">
                 <li><a href="#">About</a></li>
@@ -38,16 +48,16 @@
         <div class="container">
             <div class="row">
                 <div class="col l8 s12 white-text">
-                    <h4 class="thin-text left-align valign">I'm a junior full stack developer who excels in presenting complex ideas and designs</h4>
+                    <h5 class="thin-text left-align valign">I'm a junior full stack developer who excels at presenting complex ideas and designs</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col 14">
-                    <a class="waves-effect btn-large hoverable orange darken-2">View projects</a>
+                    <a class="waves-effect btn-large hoverable transparent">View projects</a>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="https://images.pexels.com/photos/823/black-and-white-waves-close-up-view-circle.jpg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+        <div class="parallax"><img src="https://images.pexels.com/photos/577584/pexels-photo-577584.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
     </div>
     <!-- services or projects -->
     <div class="container">
@@ -81,28 +91,28 @@
                 </div>
             </div>
             <div class="row">
-                        <div class="col l6 m12 s12">
-                            <div class="card small">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="https://images.pexels.com/photos/226721/pexels-photo-226721.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title activator grey-text text-darken-4">TBD<i class="material-icons right">more_vert</i></span>
-                                    <p><a href="#">Github Link</a></p>
-                                </div>
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">More Info<i class="material-icons right">close</i></span>
-                                    <p>
-                                        <h3>TBD</h3>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
+                <div class="col l6 m12 s12">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="https://images.pexels.com/photos/226721/pexels-photo-226721.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">TBD<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">Github Link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">More Info<i class="material-icons right">close</i></span>
+                            <p>
+                                <h3>TBD</h3>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
+                </div>
+            </div>
             <!-- </div> -->
             <div class="row">
                 <div class="col l6 m12 s12">
@@ -126,8 +136,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <!-- </div> -->
                 <!-- </div> -->
                 <div class="row">
@@ -149,7 +157,6 @@
                                         <li>HTML/CSS</li>
                                         <li>Bootstrap</li>
                                         <li><a href="https://heloflier.github.io/DayTripperSanDiego/">Link Here</a></li>
-                                        
                                     </ul>
                                 </p>
                             </div>
@@ -158,7 +165,6 @@
                     <!-- </div> -->
                     <!-- </div> -->
                     <!-- </div> -->
-                    
                 </div>
             </div>
         </div>
@@ -166,10 +172,8 @@
     <!--  </div> -->
     <!-- footer -->
     <div class="parallax-container">
-      <div class="parallax"><img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+        <div class="parallax"><img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
     </div>
-
-
     <footer class="page-footer">
         <div class="container">
             <div class="row">
