@@ -13,15 +13,16 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: ghostwhite;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-h2 {
+h3 {
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: 300;
 }
 
@@ -31,7 +32,7 @@ h2 {
 
 h5 {
     color: black;
-   font-family: cursive;
+   font-family: sans-serif;
     /*-webkit-text-fill-color: white;
      Will override color (regardless of order) 
     -webkit-text-stroke-width: 1px;
